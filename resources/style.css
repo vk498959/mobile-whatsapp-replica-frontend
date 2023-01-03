@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin:0;
+}
+.container{
+display: grid;
+grid-template-columns: 100vw;
+grid-template-rows: 10vh 10vh 80vh;
+}
+.topbar{
+    display: grid;
+    grid-template-columns:80% 10% 10% ;
+    grid-template-rows: 100%;
+    font-weight: bolder;
+    font-size:2rem;
+    color: white;
+}
+
+.topbarsearch,.topmenudot{
+   justify-self: right;
+}
+.whatsappcolor{
+    background-color: rgba(18,140,126);
+}
+.selectbar{
+    background-color: rgba(18,140,126);
+    display: grid;
+    grid-template-columns: 10vw 30vw 30vw 30vw;
+    grid-template-rows: 10vh;
+    justify-items: center;
+    align-items: center;
+    font-weight: bolder;
+    color: white;
+}
+.body{
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: repeat(8,10vh);
+}
+
+.contacts{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 20% 60% 20%;
+    margin-top: 1%;
+    margin-left: 1%;
+    /* align-items: baseline; */
+}
+.photo{
+    height: 9vh;
+    width: 9vh;
+    border-radius: 50%;
+    overflow: hidden;
+    background: linear-gradient(blue,brown);
+}
+.name{
+    font-weight: 900;
+    font-size: 2rem;
+}
+.time{
+    font-weight: 700;
+    font-size: .9rem;
+    text-align: end;
+    margin-right:20px;
+
+}
+
+.number{
+    margin-right: 20px;
+    height: 3vh;
+    width: 3vh;
+    border-radius: 50%;
+    background-color: rgb(80, 225, 80);
+    margin-top: 1%;
+    text-align: center;
+    color:white;
+    font-weight: 800;
+
+}
+.tn{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns:1fr ;
+    justify-items: end;
+}
+
+.chat{
+    display:flex;
+    position:fixed;
+    left: 80vw;
+    top: 85vh;
+    height:8vh;
+    width:8vh;
+    border-radius: 50%;
+    align-items: center;
+    justify-items: center;
+}
